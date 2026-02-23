@@ -9,7 +9,7 @@ export const config = {
     defaultLanguage: import.meta.env.VITE_DEFAULT_LANGUAGE || 'en',
   },
   api_endpoints: {
-    newsApi: 'https://newsapi.org/v2',
+    newsApi: import.meta.env.PROD ? '/api/news' : 'https://newsapi.org/v2',
     gNews: 'https://gnews.io/api/v4',
   },
   categories: [
