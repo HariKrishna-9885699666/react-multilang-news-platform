@@ -13,11 +13,13 @@ const createApiClient = (baseURL, apiKey, keyParam = 'apiKey') => {
   client.interceptors.request.use((requestConfig) => {
     // If it's the proxy endpoint, we need to pass the actual NewsAPI endpoint name as a param
     if (baseURL === '/api/news') {
-      const endpoint = requestConfig.url.split('/').pop();
+      const endpoint = requestConfig.url.replace(/^\//, '');
       requestConfig.params = {
         ...requestConfig.params,
         endpoint
       };
+      // Set url to empty string to hit the baseURL (/api/news) directly
+      requestConfig.url = '';
       // For proxy, we don't send apiKey from client; it's injected on server
     } else if (apiKey) {
       requestConfig.params = {
