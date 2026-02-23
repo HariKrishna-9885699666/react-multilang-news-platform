@@ -1,0 +1,44 @@
+{
+  "app": {
+    "title": "Plataforma de Noticias Multilingüe",
+    "description": "Tu fuente de noticias globales en múltiples idiomas"
+  },
+  "nav": {
+    "home": "Inicio",
+    "categories": "Categorías",
+    "search": "Buscar"
+  },
+  "categories": {
+    "general": "General",
+    "business": "Negocios",
+    "technology": "Tecnología",
+    "sports": "Deportes",
+    "entertainment": "Entretenimiento",
+    "health": "Salud",
+    "science": "Ciencia"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "retry": "Reintentar",
+    "loadMore": "Cargar Más",
+    "readMore": "Leer Más",
+    "noResults": "No se encontraron resultados",
+    "searchPlaceholder": "Buscar noticias...",
+    "language": "Idioma",
+    "publishedAt": "Publicado en"
+  },
+  "errors": {
+    "fetchFailed": "Error al obtener noticias. Por favor, inténtelo de nuevo.",
+    "apiLimit": "Límite de API alcanzado. Por favor, inténtelo más tarde.",
+    "networkError": "Error de red. Por favor, verifique su conexión.",
+    "translationFailed": "Error en la traducción. Mostrando contenido original."
+  },
+  "news": {
+    "topHeadlines": "Titulares Principales",
+    "latestNews": "Últimas Noticias",
+    "noContent": "Contenido no disponible",
+    "source": "Fuente",
+    "author": "Autor"
+  }
+}

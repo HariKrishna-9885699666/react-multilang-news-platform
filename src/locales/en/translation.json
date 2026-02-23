@@ -1,0 +1,49 @@
+{
+  "app": {
+    "title": "MultiLang News Platform",
+    "description": "Your source for global news in multiple languages"
+  },
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "search": "Search"
+  },
+  "categories": {
+    "general": "General",
+    "business": "Business",
+    "technology": "Technology",
+    "sports": "Sports",
+    "entertainment": "Entertainment",
+    "health": "Health",
+    "science": "Science",
+    "world": "World",
+    "politics": "Politics",
+    "finance": "Finance",
+    "lifestyle": "Lifestyle",
+    "travel": "Travel"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "loadMore": "Load More",
+    "readMore": "Read More",
+    "noResults": "No results found",
+    "searchPlaceholder": "Search for news...",
+    "language": "Language",
+    "publishedAt": "Published at"
+  },
+  "errors": {
+    "fetchFailed": "Failed to fetch news. Please try again.",
+    "apiLimit": "API rate limit reached. Please try again later.",
+    "networkError": "Network error. Please check your connection.",
+    "translationFailed": "Translation failed. Showing original content."
+  },
+  "news": {
+    "topHeadlines": "Top Headlines",
+    "latestNews": "Latest News",
+    "noContent": "Content not available",
+    "source": "Source",
+    "author": "Author"
+  }
+}

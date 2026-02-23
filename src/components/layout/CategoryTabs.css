@@ -1,0 +1,86 @@
+.category-tabs {
+  background: var(--surface-elevated);
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 73px;
+  z-index: 90;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 2rem;
+}
+
+.tabs-wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0.75rem;
+  padding: 1.25rem 0;
+}
+
+.tab {
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background: var(--surface-color);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: var(--transition);
+  white-space: nowrap;
+  text-align: center;
+  position: relative;
+}
+
+.tab::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--gradient-primary);
+  border-radius: calc(var(--radius-md) - 2px);
+  opacity: 0;
+  transition: var(--transition);
+  z-index: -1;
+}
+
+.tab:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+.tab.active {
+  background: var(--gradient-primary);
+  border-color: transparent;
+  color: white;
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.tab.active::before {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .category-tabs {
+    top: 57px;
+  }
+
+  .tabs-wrapper {
+    padding: 1rem 0;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .tab {
+    padding: 0.625rem 0.5rem;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tabs-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

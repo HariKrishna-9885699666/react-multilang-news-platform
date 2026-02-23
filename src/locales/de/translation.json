@@ -1,0 +1,44 @@
+{
+  "app": {
+    "title": "Mehrsprachige Nachrichtenplattform",
+    "description": "Ihre Quelle für globale Nachrichten in mehreren Sprachen"
+  },
+  "nav": {
+    "home": "Startseite",
+    "categories": "Kategorien",
+    "search": "Suchen"
+  },
+  "categories": {
+    "general": "Allgemein",
+    "business": "Wirtschaft",
+    "technology": "Technologie",
+    "sports": "Sport",
+    "entertainment": "Unterhaltung",
+    "health": "Gesundheit",
+    "science": "Wissenschaft"
+  },
+  "common": {
+    "loading": "Lädt...",
+    "error": "Fehler",
+    "retry": "Wiederholen",
+    "loadMore": "Mehr Laden",
+    "readMore": "Mehr Lesen",
+    "noResults": "Keine Ergebnisse gefunden",
+    "searchPlaceholder": "Nachrichten suchen...",
+    "language": "Sprache",
+    "publishedAt": "Veröffentlicht am"
+  },
+  "errors": {
+    "fetchFailed": "Fehler beim Abrufen der Nachrichten. Bitte versuchen Sie es erneut.",
+    "apiLimit": "API-Ratenlimit erreicht. Bitte versuchen Sie es später erneut.",
+    "networkError": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung.",
+    "translationFailed": "Übersetzung fehlgeschlagen. Original-Inhalt wird angezeigt."
+  },
+  "news": {
+    "topHeadlines": "Top-Schlagzeilen",
+    "latestNews": "Neueste Nachrichten",
+    "noContent": "Inhalt nicht verfügbar",
+    "source": "Quelle",
+    "author": "Autor"
+  }
+}

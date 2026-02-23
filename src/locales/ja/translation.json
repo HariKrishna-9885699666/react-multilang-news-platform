@@ -1,0 +1,44 @@
+{
+  "app": {
+    "title": "多言語ニュースプラットフォーム",
+    "description": "複数の言語で世界のニュースを提供"
+  },
+  "nav": {
+    "home": "ホーム",
+    "categories": "カテゴリー",
+    "search": "検索"
+  },
+  "categories": {
+    "general": "一般",
+    "business": "ビジネス",
+    "technology": "テクノロジー",
+    "sports": "スポーツ",
+    "entertainment": "エンターテインメント",
+    "health": "健康",
+    "science": "科学"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "retry": "再試行",
+    "loadMore": "さらに読み込む",
+    "readMore": "続きを読む",
+    "noResults": "結果が見つかりません",
+    "searchPlaceholder": "ニュースを検索...",
+    "language": "言語",
+    "publishedAt": "公開日"
+  },
+  "errors": {
+    "fetchFailed": "ニュースの取得に失敗しました。もう一度お試しください。",
+    "apiLimit": "APIレート制限に達しました。後でもう一度お試しください。",
+    "networkError": "ネットワークエラー。接続を確認してください。",
+    "translationFailed": "翻訳に失敗しました。元のコンテンツを表示しています。"
+  },
+  "news": {
+    "topHeadlines": "トップニュース",
+    "latestNews": "最新ニュース",
+    "noContent": "コンテンツが利用できません",
+    "source": "ソース",
+    "author": "著者"
+  }
+}

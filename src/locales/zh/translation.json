@@ -1,0 +1,44 @@
+{
+  "app": {
+    "title": "多语言新闻平台",
+    "description": "您的多语言全球新闻来源"
+  },
+  "nav": {
+    "home": "首页",
+    "categories": "分类",
+    "search": "搜索"
+  },
+  "categories": {
+    "general": "综合",
+    "business": "商业",
+    "technology": "科技",
+    "sports": "体育",
+    "entertainment": "娱乐",
+    "health": "健康",
+    "science": "科学"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "retry": "重试",
+    "loadMore": "加载更多",
+    "readMore": "阅读更多",
+    "noResults": "未找到结果",
+    "searchPlaceholder": "搜索新闻...",
+    "language": "语言",
+    "publishedAt": "发布于"
+  },
+  "errors": {
+    "fetchFailed": "获取新闻失败。请重试。",
+    "apiLimit": "已达到API速率限制。请稍后重试。",
+    "networkError": "网络错误。请检查您的连接。",
+    "translationFailed": "翻译失败。显示原始内容。"
+  },
+  "news": {
+    "topHeadlines": "头条新闻",
+    "latestNews": "最新新闻",
+    "noContent": "内容不可用",
+    "source": "来源",
+    "author": "作者"
+  }
+}

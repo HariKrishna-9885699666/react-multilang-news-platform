@@ -1,0 +1,44 @@
+{
+  "app": {
+    "title": "बहुभाषी समाचार मंच",
+    "description": "कई भाषाओं में वैश्विक समाचार का आपका स्रोत"
+  },
+  "nav": {
+    "home": "होम",
+    "categories": "श्रेणियाँ",
+    "search": "खोजें"
+  },
+  "categories": {
+    "general": "सामान्य",
+    "business": "व्यापार",
+    "technology": "प्रौद्योगिकी",
+    "sports": "खेल",
+    "entertainment": "मनोरंजन",
+    "health": "स्वास्थ्य",
+    "science": "विज्ञान"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "retry": "पुनः प्रयास करें",
+    "loadMore": "और लोड करें",
+    "readMore": "और पढ़ें",
+    "noResults": "कोई परिणाम नहीं मिला",
+    "searchPlaceholder": "समाचार खोजें...",
+    "language": "भाषा",
+    "publishedAt": "प्रकाशित"
+  },
+  "errors": {
+    "fetchFailed": "समाचार लाने में विफल। कृपया पुनः प्रयास करें।",
+    "apiLimit": "API दर सीमा तक पहुँच गई। कृपया बाद में पुनः प्रयास करें।",
+    "networkError": "नेटवर्क त्रुटि। कृपया अपना कनेक्शन जांचें।",
+    "translationFailed": "अनुवाद विफल। मूल सामग्री दिखा रहे हैं।"
+  },
+  "news": {
+    "topHeadlines": "शीर्ष समाचार",
+    "latestNews": "नवीनतम समाचार",
+    "noContent": "सामग्री उपलब्ध नहीं है",
+    "source": "स्रोत",
+    "author": "लेखक"
+  }
+}
