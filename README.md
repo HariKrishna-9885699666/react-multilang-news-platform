@@ -2,6 +2,8 @@
 
 A modern, production-ready React application for browsing global news in multiple languages with real-time translation capabilities.
 
+**Live Demo**: [https://react-multilang-news-platform.vercel.app/](https://react-multilang-news-platform.vercel.app/)
+
 ![React](https://img.shields.io/badge/React-19.2.0-blue)
 ![Yarn](https://img.shields.io/badge/Yarn-4.12.0-2C8EBB)
 ![Vite](https://img.shields.io/badge/Vite-7.3.1-646CFF)
